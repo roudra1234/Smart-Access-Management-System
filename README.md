@@ -1,4 +1,5 @@
 # Smart Access Management System
+*by NeuroX Corp*
 
 A comprehensive access control and management solution designed to provide secure, intelligent, and automated access management for buildings, facilities, and digital resources.
 
@@ -458,9 +459,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ### Contact
 
-- **Email**: roudra1234@example.com
-- **LinkedIn**: [Your LinkedIn Profile]
-- **Twitter**: [@your_twitter_handle]
+**NeuroX Corp Team:**
+- **Divvyansh Kudesiaa** - Lead Developer & System Architect
+- **Roudra Ghosal** - Backend Developer & Hardware Integration  
+- **Amisha Thakur** - Frontend Developer & UI/UX Designer
+
+**Company Email**: contact@neuroxcorp.com
 
 ### Troubleshooting
 
@@ -494,5 +498,19 @@ Solution: Check hardware connections and device permissions.
 ![GitHub license](https://img.shields.io/github/license/roudra1234/Smart-Access-Management-System)
 
 ---
+
+**Built with ❤️ by NeuroX Corp**
+
+### Our Team
+
+| Team Member | Role |
+|-------------|------|
+| **Divvyansh Kudesiaa** | Lead Developer & System Architect |
+| **Roudra Ghosal** | Backend Developer & Hardware Integration |
+| **Amisha Thakur** | Frontend Developer & UI/UX Designer |
+
+---
+
+**NeuroX Corp** - *Innovating the future of intelligent access management systems*
 
 *Making access management smarter, one door at a time.*
