@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Smart-Access-Management-System/static/css/main.eaa4c575.css",
+    "main.js": "/Smart-Access-Management-System/static/js/main.57992328.js",
+    "static/js/453.8ac36b3e.chunk.js": "/Smart-Access-Management-System/static/js/453.8ac36b3e.chunk.js",
+    "index.html": "/Smart-Access-Management-System/index.html",
+    "main.eaa4c575.css.map": "/Smart-Access-Management-System/static/css/main.eaa4c575.css.map",
+    "main.57992328.js.map": "/Smart-Access-Management-System/static/js/main.57992328.js.map",
+    "453.8ac36b3e.chunk.js.map": "/Smart-Access-Management-System/static/js/453.8ac36b3e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eaa4c575.css",
+    "static/js/main.57992328.js"
+  ]
+}
