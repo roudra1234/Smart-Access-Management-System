@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`1 Default render 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-azxdeb"
+  >
+    <div
+      class="MuiBox-root css-1qmgq4"
+    >
+      <div
+        class="MuiBox-root css-wxdvxx"
+      >
+        <img
+          alt="Logo"
+          src="/logo.png"
+        />
+      </div>
+      <div
+        class="MuiBox-root css-1dx8jfp"
+      >
+        MultiSafe
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`2 Hide brand text 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-trhjiw"
+  >
+    <div
+      class="MuiBox-root css-1qmgq4"
+    >
+      <div
+        class="MuiBox-root css-wxdvxx"
+      >
+        <img
+          alt="Logo"
+          src="/logo.png"
+        />
+      </div>
+      <div
+        class="MuiBox-root css-1dx8jfp"
+      >
+        MultiSafe
+      </div>
+    </div>
+  </div>
+</div>
+`;

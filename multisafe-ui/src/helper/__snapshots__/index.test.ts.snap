@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`1 parseUnits 1`] = `"1256000"`;
+
+exports[`1 parseUnits 2`] = `"120000000000"`;
+
+exports[`1 parseUnits 3`] = `"125600000"`;
+
+exports[`1 parseUnits 4`] = `"11"`;
+
+exports[`2 formatUnits 1`] = `"1.256"`;
+
+exports[`2 formatUnits 2`] = `"120000"`;
+
+exports[`2 formatUnits 3`] = `"1.256"`;
+
+exports[`2 formatUnits 4`] = `"11"`;
+
+exports[`3 checkDecimalAmount 1`] = `false`;
+
+exports[`3 checkDecimalAmount 2`] = `true`;
+
+exports[`3 checkDecimalAmount 3`] = `true`;
+
+exports[`3 checkDecimalAmount 4`] = `true`;
+
+exports[`3 checkDecimalAmount 5`] = `true`;
+
+exports[`3 checkDecimalAmount 6`] = `false`;
+
+exports[`4 checkAmount 1`] = `true`;
+
+exports[`4 checkAmount 2`] = `false`;
+
+exports[`5 detectTransactionType 1`] = `"add-owner"`;
+
+exports[`5 detectTransactionType 2`] = `null`;
+
+exports[`5 detectTransactionType 3`] = `"remove-owner"`;
+
+exports[`5 detectTransactionType 4`] = `"set-threshold"`;
+
+exports[`5 detectTransactionType 5`] = `"transfer-stx"`;
+
+exports[`5 detectTransactionType 6`] = `"transfer-sip-009"`;
+
+exports[`5 detectTransactionType 7`] = `"transfer-sip-010"`;
+
+exports[`5 detectTransactionType 8`] = `null`;
+
+exports[`6 contractPrincipalCVFromString 1`] = `
+Object {
+  "address": Object {
+    "hash160": "fad413a3b38e9cc64afb1bc0ecae4b948966785d",
+    "type": 0,
+    "version": 22,
+  },
+  "contractName": Object {
+    "content": "add-owner",
+    "lengthPrefixBytes": 1,
+    "maxLengthBytes": 128,
+    "type": 2,
+  },
+  "type": 6,
+}
+`;
+
+exports[`7 transformNftUri 1`] = `"https://gateway.ipfs.io/ipfs/QmYTX3u58v2Ero2drdtqhL6rPE5qnv51EJZ6WSu3LKqUBN/crashpunks-3.json"`;
+
+exports[`7 transformNftUri 2`] = `"https://arweave.net/II4z2ziYyqG7-kWDa98lWGfjxRdYOx9Zdld9P_I_kzE/3.json"`;
+
+exports[`7 transformNftUri 3`] = `"https://api.satoshibles.com/token/btc/25"`;
+
+exports[`7 transformNftUri 4`] = `"https://gateway.ipfs.io/ipfs/QmYTX3u58v2Ero2drdtqhL6rPE5qnv51EJZ6WSu3LKqUBN/crashpunks-444.json"`;
+
+exports[`8 isValidRecipient 1`] = `false`;
+
+exports[`8 isValidRecipient 2`] = `true`;
+
+exports[`8 isValidRecipient 3`] = `true`;
+
+exports[`8 isValidRecipient 4`] = `false`;
+
+exports[`9 principleFromString 1`] = `
+Object {
+  "address": Object {
+    "hash160": "fad413a3b38e9cc64afb1bc0ecae4b948966785d",
+    "type": 0,
+    "version": 22,
+  },
+  "type": 5,
+}
+`;
+
+exports[`9 principleFromString 2`] = `
+Object {
+  "address": Object {
+    "hash160": "fad413a3b38e9cc64afb1bc0ecae4b948966785d",
+    "type": 0,
+    "version": 22,
+  },
+  "contractName": Object {
+    "content": "contract",
+    "lengthPrefixBytes": 1,
+    "maxLengthBytes": 128,
+    "type": 2,
+  },
+  "type": 6,
+}
+`;

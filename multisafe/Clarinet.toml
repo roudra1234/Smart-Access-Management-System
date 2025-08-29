@@ -1,0 +1,83 @@
+[project]
+name = "multisafe"
+requirements = []
+
+[repl]
+costs_version = 1
+
+[contracts.safe]
+path = "contracts/safe.clar"
+depends_on = ["traits"]
+
+[contracts.traits]
+path = "contracts/traits.clar"
+depends_on = []
+
+[contracts.add-owner]
+path = "contracts/executors/add-owner.clar"
+depends_on = ["safe"]
+
+[contracts.remove-owner]
+path = "contracts/executors/remove-owner.clar"
+depends_on = ["safe"]
+
+[contracts.set-threshold]
+path = "contracts/executors/set-threshold.clar"
+depends_on = ["safe"]
+
+[contracts.allow-caller]
+path = "contracts/executors/allow-caller.clar"
+depends_on = ["safe"]
+
+[contracts.revoke-caller]
+path = "contracts/executors/revoke-caller.clar"
+depends_on = ["safe"]
+
+[contracts.transfer-stx]
+path = "contracts/executors/transfer-stx.clar"
+depends_on = ["safe"]
+
+[contracts.transfer-sip-010]
+path = "contracts/executors/transfer-sip-010.clar"
+depends_on = ["safe"]
+
+[contracts.transfer-sip-009]
+path = "contracts/executors/transfer-sip-009.clar"
+depends_on = ["safe"]
+
+[contracts.magic-bridge-send]
+path = "contracts/executors/magic-bridge-send.clar"
+depends_on = ["safe"]
+
+[contracts.magic-bridge-set]
+path = "contracts/executors/magic-bridge-set.clar"
+depends_on = ["safe"]
+
+[contracts.ft-none]
+path = "contracts/helper/ft-none.clar"
+depends_on = []
+
+[contracts.nft-none]
+path = "contracts/helper/nft-none.clar"
+depends_on = []
+
+[contracts.magic-bridge]
+path = "contracts/misc/magic-bridge.clar"
+depends_on = []
+
+[contracts.magic-bridge-fake]
+path = "contracts/misc/magic-bridge-fake.clar"
+depends_on = []
+
+[contracts.vault]
+path = "contracts/misc/vault.clar"
+depends_on = []
+
+[contracts.proxy]
+path = "contracts/misc/proxy.clar"
+depends_on = []
+
+[contracts.set-vault-token-per-cycle]
+path = "contracts/executors/set-vault-token-per-cycle.clar"
+depends_on = ["safe", "vault"]
+

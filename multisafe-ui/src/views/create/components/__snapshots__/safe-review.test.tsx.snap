@@ -1,0 +1,165 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`1 Default render 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-0"
+  >
+    <div
+      class="MuiBox-root css-156i07"
+    >
+      <div
+        class="review-section MuiBox-root css-1kp2kwa"
+      >
+        <div
+          class="review-section-title"
+        >
+          Details
+        </div>
+        <div
+          class="detail-section"
+        >
+          <div
+            class="section-title"
+          >
+            Name of new Safe
+          </div>
+          <div
+            class="section-info"
+          >
+            my-safe-2
+          </div>
+        </div>
+        <div
+          class="detail-section"
+        >
+          <div
+            class="section-title"
+          >
+            Confirmation threshold
+          </div>
+          <div
+            class="section-info"
+          >
+            2 out of 2 owners
+          </div>
+        </div>
+      </div>
+      <div
+        class="review-section MuiBox-root css-1r47yf"
+      >
+        <div
+          class="review-section-title"
+        >
+          2 Safe owners
+        </div>
+        <div
+          class="MuiBox-root css-1ethbx3"
+        >
+          <div
+            class="icon"
+          >
+            <img
+              alt="SP3XD84X3PE79SHJAZCDW1V5E9EA8JSKRBPEKAEK7"
+              src="data:image/png;base64,iVBORw0..."
+              style="border-radius: 50%;"
+            />
+          </div>
+          <div
+            class="address"
+          >
+            SP3XD84X3PE79SHJAZCDW1V5E9EA8JSKRBPEKAEK7
+          </div>
+          <a
+            class="link"
+            href="https://explorer.stacks.co/address/SP3XD84X3PE79SHJAZCDW1V5E9EA8JSKRBPEKAEK7?chain=mainnet"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1jm6t9j-MuiSvgIcon-root"
+              data-testid="LaunchIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"
+              />
+            </svg>
+          </a>
+        </div>
+        <div
+          class="MuiBox-root css-1ethbx3"
+        >
+          <div
+            class="icon"
+          >
+            <img
+              alt="SP2DXHX9Q844EBT80DYJXFWXJKCJ5FFAX50CQQAWN"
+              src="data:image/png;base64,iVBORw0..."
+              style="border-radius: 50%;"
+            />
+          </div>
+          <div
+            class="address"
+          >
+            SP2DXHX9Q844EBT80DYJXFWXJKCJ5FFAX50CQQAWN
+          </div>
+          <a
+            class="link"
+            href="https://explorer.stacks.co/address/SP2DXHX9Q844EBT80DYJXFWXJKCJ5FFAX50CQQAWN?chain=mainnet"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1jm6t9j-MuiSvgIcon-root"
+              data-testid="LaunchIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiBox-root css-1bht99n"
+    >
+      You're about to create a new MultiSafe on 
+      <strong>
+        Mainnet
+      </strong>
+       and will have to confirm a transaction with your wallet.
+    </div>
+    <div
+      class="MuiBox-root css-4jc3c7"
+    >
+      <button
+        class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium css-1i3558q-MuiButtonBase-root-MuiButton-root"
+        tabindex="0"
+        type="button"
+      >
+        Back
+        <span
+          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+        />
+      </button>
+      <button
+        class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium css-sghohy-MuiButtonBase-root-MuiButton-root"
+        tabindex="0"
+        type="button"
+      >
+        Connect Wallet
+        <span
+          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+        />
+      </button>
+    </div>
+  </div>
+</div>
+`;
